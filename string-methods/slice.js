@@ -1,5 +1,8 @@
-let str = "Extracts a part of a string and returns a new string"
+let str = "hellow world";
 
-let slice =alert(str.slice(16,27))
+let slice = str.slice(1,6)
+alert(slice)
+alert(str)
 
-let split = alert(str.split(""))
+// let split = str.split("").sort().join("")
+// console.log(split)

@@ -1,2 +1,3 @@
 let text = "the future is bright";
-alert(text.charAt(4));
+ let show = alert(text.charAt(9));
+console.log(show)
