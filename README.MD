@@ -13,6 +13,8 @@
 # STRING Methods
 
 >used several string methods.
+> and about distance between points
+
 
 # lesson 2
 
@@ -23,7 +25,10 @@
 > For2. Given two integers A and B (A < B). Sort everything in ascending order
 integers located between A and B (including the numbers A and B themselves), and
 also the number N of these numbers.
->
-> and about distance between points
 
+> for3. Given two integers A and B (A < B). List all in descending order
+integers between A and B (not including numbers A and B), and
+also the number N of these numbers.
 
+> For4. Given a real number — the price of 1 kg of sweets. Output cost 1,
+2, . . . , 10 kg of sweets.
