@@ -3,7 +3,7 @@ let replaceWith = prompt(`enter replacing element`)
 
 // console.log(str.replaceAll(Number , replaceWith))
 for (let i = 0; i <str.length; i++) {
-    if(str.charAt(i)==Number) {
+    if(str.charAt(i)==typeof(+Number)) {
         str.replace(Numbers, "a")
     }
 
