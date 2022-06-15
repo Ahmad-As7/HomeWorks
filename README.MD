@@ -1,4 +1,4 @@
-![alt text](https://cdn4.vectorstock.com/i/1000x1000/14/03/node-js-emblem-vector-28501403.jpg)
+![alt text](http://www.eventloopconsulting.com/img/portfolio/circus.png)
 
 # HomeWorks
 # lesson 1
