@@ -1,16 +1,16 @@
 let a = "aABaBCAbC";
 let str =  ""
-let uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+// let uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 let ctn = 0
-for(let i = 0; i < str.length; i++){
-    if(a[i].includes(uppercase[i])){
-        ctn++
-        str += a(i)
-    }
+// for(let i = 0; i < str.length; i++){
+//     if(a[i].includes(uppercase[i])){
+//         ctn++
+//         str += a(i)
+//     }
 
-}
-console.log(ctn)
-console.log(str)
+// }
+// console.log(ctn)
+// console.log(str)
 
 
 
@@ -18,6 +18,10 @@ console.log(str)
 for(let i = 0; i < a.length; i++){
     if(a[i] == a[i].toUpperCase()){
         ctn++
+        str += a[i]
+
     }
+
 }
+console.log(str)
 console.log(ctn)
