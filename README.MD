@@ -1,3 +1,5 @@
+![alt text](https://cdn4.vectorstock.com/i/1000x1000/14/03/node-js-emblem-vector-28501403.jpg)
+
 # HomeWorks
 # lesson 1
 - Tasks from taskbook Abramyan
