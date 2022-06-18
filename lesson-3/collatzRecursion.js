@@ -1,15 +1,17 @@
-function collatz(n, cnt = 0){
-    
-    if( n == 1){
-     return ``
-    }
+let cnt = 0;
+function collatz(n ){
+    cnt += 1
     console.log(n)
+
+    if( n == 1){
+     return 1
+    }
     if(n % 2 != 0){
-        return collatz(n * 3 + 1, cnt+=1)
+        return collatz(n * 3 + 1)
     }
     
     if(n % 2 == 0){
-        return collatz(n / 2, cnt+=1)
+        return collatz(n / 2)
     }
 }
-console.log(collatz(3,cnt))
+console.log(collatz(3))
