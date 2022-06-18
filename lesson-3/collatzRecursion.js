@@ -1,22 +1,15 @@
-function collatz(n){
-    let steps = 0
+function collatz(n, cnt = 0){
     
     if( n == 1){
-        steps++
-     return `${steps} steps`
+     return ``
     }
     console.log(n)
     if(n % 2 != 0){
-        steps++
-        return collatz(n * 3 + 1)
+        return collatz(n * 3 + 1, cnt+=1)
     }
-    console.log(`n ${steps}`)
     
     if(n % 2 == 0){
-        steps++
-
-        return collatz(n / 2)
+        return collatz(n / 2, cnt+=1)
     }
-    return steps;
 }
-console.log(collatz(3))
+console.log(collatz(3,cnt))
