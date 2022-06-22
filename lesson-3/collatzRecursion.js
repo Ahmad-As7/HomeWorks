@@ -1,5 +1,5 @@
 let cnt = 0;
-function collatz(n ){
+function collatz(n){
     cnt += 1
     console.log(n)
 
