@@ -1,6 +1,10 @@
-let arr = [0, 1, false, 2, "", 3]
+let arr = [0, 1, false, 2, "", 3,undefined,NaN,null]
 
-const  removeFalsey = arr.filter((elem, index) =>{ if(elem !== undefined && elem !== null && elem !== 0 && elem !== false){
+const  removeFalsey = arr.filter((elem) =>{ if(elem !== undefined && elem !== null && elem !== 0 && elem !== false ){
     return elem}
 }) 
 console.log(removeFalsey)
+
+
+
+// arr.filter(function removeFalsey(elem){return elem})
