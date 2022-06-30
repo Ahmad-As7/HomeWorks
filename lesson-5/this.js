@@ -37,7 +37,7 @@
 // console.log(addName({piano: 500},"brutus",300))
 
 // use only two parameters
-// let f = 
+// let f =
 //   [
 //     {
 //       "Generation":-3,
@@ -51,7 +51,6 @@
 //       return obj.Generation === x;
 //     });
 
-
 //     switch(y){
 //       case 'm': console.log(t.Male);
 //       break;
@@ -60,12 +59,11 @@
 //       default: console.log("wrong input");
 //       break;
 //     }
- 
+
 // }
 // console.log(generation(-3,"m"))
 
-
-// 
+//
 // function generation(x,y) {
 // const generations = {
 //   '-3':{
@@ -102,26 +100,51 @@
 // }
 // console.log(generation("1","1"))
 
-function generation(x,y){
-
+function generation(x, y) {
     let obj = {
-        "-3":{"m":"great grandfather","f":"great grandmother"},
-        "-2":{"m":"grandfather","f":"grandmother"},
-        "-1":{"m":"father","f":"mother"},
-        "0":{"m":"me!","f":"me!"},
-        "1":{"m":"son","f":"daughter"},
-        "1":{"m":"grandson","f":"granddaughter"},
-        "1":{"m":"great grandson","f":"great granddaughter"},
-
+        "-3": {
+            m: "great grandfather",
+            f: "great grandmother"
+        },
+        "-2": {
+            m: "grandfather",
+            f: "grandmother"
+        },
+        "-1": {
+            m: "father",
+            f: "mother"
+        },
+        0: {
+            m: "me!",
+            f: "me!"
+        },
+        1: {
+            m: "son",
+            f: "daughter"
+        },
+        1: {
+            m: "grandson",
+            f: "granddaughter"
+        },
+        1: {
+            m: "great grandson",
+            f: "great granddaughter"
+        },
     };
 
-    return obj[x][y]
+    return obj[x][y];
 }
-console.log(generation("-2","f"))
-
+// console.log(generation("-2","f"))
 
 // obj{y}=arr[1]
 
 // return obj[num]=value;
 
 // console.log(generation(1, "m"));
+
+let array = [1, 2, {
+    obj2: "obj1",
+    obj: "obj2"
+}, 4, 5];
+let obj3 = array[2]["obj2"];
+console.log(obj3);
