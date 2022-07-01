@@ -31,8 +31,6 @@ let counter = 0
 span.style.color = "black"
 span.style.padding = "10px"
 btn1.onclick = () =>{
-    
-    
     if(counter>=0){
     span.style.color = "blue"
     }
