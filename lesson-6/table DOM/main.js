@@ -4,6 +4,7 @@ let table = document.createElement('table');
 document.body.appendChild(table);
 // table.style.border = "1px solid black";
 let thead = document.createElement('thead');
+thead.classList.add("thead");
 table.appendChild(thead);
 let th1 = document.createElement('th');
 th1.innerHTML = "Rank"
@@ -24,9 +25,26 @@ td2.innerHTML = "dcode"
 td3.innerHTML = "Domenic"
 td4.innerHTML = "88,110"
 let tr2 = document.createElement('tr')
-tr2.innerHTML = "2"
+let tr2td1 = tr2.insertCell(0)
+let tr2td2 = tr2.insertCell(1)
+let tr2td3 = tr2.insertCell(2)
+let tr2td4 = tr2.insertCell(3)
+tr2td1.innerHTML = "2"
+tr2td2.innerHTML = "Sally"
+tr2td3.innerHTML = "72,400"
+tr2td4.innerHTML = "Students"
+
 let tr3 = document.createElement('tr')
-tr3.innerHTML = "3"
+let tr3td1 = tr3.insertCell(0)
+let tr3td2 = tr3.insertCell(1)
+let tr3td3 = tr3.insertCell(2)
+let tr3td4 = tr3.insertCell(3)
+tr3td1.innerHTML = "3"
+tr3td2.innerHTML = "Nick"
+tr3td3.innerHTML = "52,300"
+tr3td4.innerHTML = "dcode"
+
+
 let tr4 = document.createElement('tr')
 tr1.classList.add("tr")
 tr2.classList.add("tr")
