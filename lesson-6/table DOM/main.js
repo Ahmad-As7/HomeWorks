@@ -6,15 +6,44 @@ document.body.appendChild(table);
 let thead = document.createElement('thead');
 table.appendChild(thead);
 let th1 = document.createElement('th');
+th1.innerHTML = "Rank"
 let th2 = document.createElement('th');
+th2.innerHTML = "Name"
 let th3 = document.createElement('th');
+th3.innerHTML = "Points"
 let th4 = document.createElement('th');
+th4.innerHTML = "Team"
 thead.append(th1,th2,th3,th4);
 let tr1 = document.createElement('tr')
+let td1 = tr1.insertCell(0)
+let td2 = tr1.insertCell(1)
+let td3 = tr1.insertCell(2)
+let td4 = tr1.insertCell(3)
+td1.innerHTML = "1"
+td2.innerHTML = "dcode"
+td3.innerHTML = "Domenic"
+td4.innerHTML = "88,110"
 let tr2 = document.createElement('tr')
+tr2.innerHTML = "2"
 let tr3 = document.createElement('tr')
+tr3.innerHTML = "3"
 let tr4 = document.createElement('tr')
 tr1.classList.add("tr")
+tr2.classList.add("tr")
+tr3.classList.add("tr")
+tr4.classList.add("tr")
+// let trClass = document.querySelector(".tr") //querySelector is not working
+// tr1.style.color = "red"
+// trClass.style.background = "black" 
+// tr1.style.padding = "15px"
+// tr1.style.background = "black"
+// tr2.style.padding = "15px"
+// tr2.style.background = "black"
+// tr3.style.padding = "15px"
+// tr3.style.background = "black"
+// tr3.style.padding = "15px"
+// tr3s.style.background = "black"
+
 table.appendChild(tr1);
 table.appendChild(tr2);
 table.appendChild(tr3);
