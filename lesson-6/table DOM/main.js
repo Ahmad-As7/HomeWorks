@@ -45,11 +45,11 @@ tr3td3.innerHTML = "52,300"
 tr3td4.innerHTML = "dcode"
 
 
-let tr4 = document.createElement('tr')
-tr1.classList.add("tr")
-tr2.classList.add("tr")
-tr3.classList.add("tr")
-tr4.classList.add("tr")
+// let tr4 = document.createElement('tr')
+// tr1.classList.add("tr")
+// tr2.classList.add("tr")
+// tr3.classList.add("tr")
+// tr4.classList.add("tr")
 // let trClass = document.querySelector(".tr") //querySelector is not working
 // tr1.style.color = "red"
 // trClass.style.background = "black" 

@@ -1,11 +1,12 @@
 let div = document.createElement('div');
-div.style.display = 'flex';
-div.style.flexDirection = 'row'
-div.style.justifyContent = "center"
-div.style.alignItems = 'center'
-div.style.justifyContent = "space-evenly"
-div.style.backgroundColor = "#D3D3D3"
-div.style.height = "550px"
+div.classList.add('div1')
+// div.style.display = 'flex';
+// div.style.flexDirection = 'row'
+// div.style.justifyContent = "center"
+// div.style.alignItems = 'center'
+// div.style.justifyContent = "space-evenly"
+// div.style.backgroundColor = "#D3D3D3"
+// div.style.height = "550px"
 // div.style.justifyContent = 'center';
 document.body.appendChild(div);
 let card1 = document.createElement('div');
@@ -44,5 +45,3 @@ let p1 = document.createElement('p')
 p1.style.paddingLeft = "10px";
 p1.innerHTML = `  <h4>Jane Doe</h4> <br> <p>Enterior Designer</p>`
 card2.appendChild(p1)
-
-

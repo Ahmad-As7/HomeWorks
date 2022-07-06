@@ -9,6 +9,7 @@ btn1.classList.add("btn-green")
 let btn2 = document.querySelector(".btn2")
 btn2.classList.add("btn-red")
 let span = document.querySelector("span")
+// span.style.textAlign = "center";
 let brandBtn= document.querySelector(".btn-green")
 brandBtn.style.backgroundColor = "green"
 brandBtn.style.padding = "10px 25px"
